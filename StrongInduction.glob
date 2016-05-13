@@ -1,0 +1,93 @@
+DIGEST 8d335edca1d25f2192425af0d16b75cf
+FStrongInduction
+sec 188:205 <> InductionPrinciple
+R225:233 Coq.Init.Datatypes <> <> lib
+var 246:246 InductionPrinciple P
+R253:256 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R250:252 Coq.Init.Datatypes <> nat ind
+prf 270:273 <> le_S
+R292:294 Coq.Init.Datatypes <> nat ind
+R309:312 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R319:322 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R314:317 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R313:313 StrongInduction <> n var
+R318:318 StrongInduction <> m var
+R324:326 Coq.Init.Logic <> :type_scope:x_'='_x not
+R323:323 StrongInduction <> n var
+R327:327 Coq.Init.Datatypes <> S constr
+R329:329 StrongInduction <> m var
+R302:305 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R301:301 StrongInduction <> n var
+R306:306 Coq.Init.Datatypes <> S constr
+R308:308 StrongInduction <> m var
+prf 420:432 <> strongind_aux
+R441:446 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R447:447 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R494:500 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R523:523 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R530:534 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R535:535 StrongInduction <> InductionPrinciple.P var
+R537:537 StrongInduction <> m var
+R525:528 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R524:524 StrongInduction <> m var
+R529:529 StrongInduction <> n var
+R458:458 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R482:486 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R487:487 StrongInduction <> InductionPrinciple.P var
+R490:490 Coq.Init.Datatypes <> S constr
+R492:492 StrongInduction <> n var
+R475:478 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R479:479 StrongInduction <> InductionPrinciple.P var
+R481:481 StrongInduction <> m var
+R470:473 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R469:469 StrongInduction <> m var
+R474:474 StrongInduction <> n var
+R438:438 StrongInduction <> InductionPrinciple.P var
+R663:666 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R657:660 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R668:670 Coq.Init.Logic <> :type_scope:x_'='_x not
+R671:671 Coq.Init.Datatypes <> S constr
+R663:666 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R657:660 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R668:670 Coq.Init.Logic <> :type_scope:x_'='_x not
+R671:671 Coq.Init.Datatypes <> S constr
+R684:687 StrongInduction <> le_S thm
+R684:687 StrongInduction <> le_S thm
+prf 807:812 <> weaken
+R818:818 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R858:863 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R877:877 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R874:874 StrongInduction <> InductionPrinciple.P var
+R876:876 StrongInduction <> n var
+R841:841 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R848:852 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R853:853 StrongInduction <> InductionPrinciple.P var
+R855:855 StrongInduction <> m var
+R843:846 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R842:842 StrongInduction <> m var
+R847:847 StrongInduction <> n var
+R926:929 Coq.Init.Peano <> le_n constr
+R926:929 Coq.Init.Peano <> le_n constr
+prf 946:954 <> strongind
+R963:968 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R969:969 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1016:1022 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1033:1033 StrongInduction <> InductionPrinciple.P var
+R1035:1035 StrongInduction <> n var
+R980:980 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1004:1008 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1009:1009 StrongInduction <> InductionPrinciple.P var
+R1012:1012 Coq.Init.Datatypes <> S constr
+R1014:1014 StrongInduction <> n var
+R997:1000 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1001:1001 StrongInduction <> InductionPrinciple.P var
+R1003:1003 StrongInduction <> m var
+R992:995 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R991:991 StrongInduction <> m var
+R996:996 StrongInduction <> n var
+R960:960 StrongInduction <> InductionPrinciple.P var
+R1063:1068 StrongInduction <> weaken thm
+R1063:1068 StrongInduction <> weaken thm
+R1079:1091 StrongInduction <> strongind_aux thm
+R1079:1091 StrongInduction <> strongind_aux thm
+R1116:1133 StrongInduction InductionPrinciple <> sec
